@@ -31,7 +31,6 @@ function App() {
       setRepositories([...repositories]);
   }
 
-
   return (
     <div>
       <ul data-testid="repository-list">{repositories.map(repository => 
